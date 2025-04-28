@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+.head-image{
+    background-color: rgba(0, 0, 0, 0.527);
+    position: fixed;
+    width: 100%;
+}
+.head-image h1{
+    color: white;
+    padding: 10px;
+    letter-spacing: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head-image h1:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.head-image{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 100%;
+    margin-left: 15%;
+}
+.option a{
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+}
+.option a:hover{
+    color: orange;
+    transition: 0.3s;
+    border-bottom: 4px white solid;
+}
+.bg{
+    background-image: url(image/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.letter h1{
+    padding-top: 15%;
+    text-align: center;
+    font-size: fixed;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, 0.897);
+    text-shadow: 5px 5px 10px white;
+    padding-bottom: 20%;
+}
+.container{
+    background: linear-gradient( to bottom, orange,rgb(131, 129, 129));
+    
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 10px;
+}
+.display-image img{
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+.display-image{
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.display-image:hover{
+    margin-top: 1.8%;
+    transition: 0.3s;
+    box-shadow: 0px 10px 20px white;
+    transform: translateY();
+}
+.newarrival{
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px white;
+}
+.mens{
+    border-bottom: 3px black solid;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+.mens h3{
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 10px white;
+}
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    padding-top: 2%;
+}
+.discription h2{
+    font-size: 125%;
+}
+.price{
+    margin-top: 5%;
+}
+.viewall-bg{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10%;
+    padding-bottom: 10px;
+    width: 25%;
+}
+.viewall-bg:hover{
+    width: 20%;
+    transition: 0.5s;
+    border-radius: 40%;
+}
+.viewall-bg a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    letter-spacing: 10px;
+    padding-bottom: 1%;
+}
+
+@media(max-width: 610px) {
+    .head-image a{
+        font-size: 10px;
+        margin-left: -20px;
+        padding-left: -10px;
+    }
+    .head-image h1{
+        font-size: 20px;
+    }
+    .letter h1{
+        padding-top: 15%;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 10px;
+        color: rgba(0, 0, 0, 0.897);
+        text-shadow: 5px 5px 10px white;
+        padding-bottom: 20%;
+    }
+    .newarrival{
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 5px 10px white;
+        font-size: 15px;
+    }
+    .mens h3{
+        font-size: 20px;
+        margin-left: 10px;
+        letter-spacing: 10px;
+        text-shadow: 5px 5px 10px white;
+    }
+    .discription{
+        padding: 3%;
+    }
+    .discription h2{
+        font-size: 50%;
+    }
+    .discription p{
+        font-size: 40%;
+        padding-top: -40px;
+    }
+    .viewall-bg{
+        width: 10%;
+        
+    }
+    .viewall-bg a{
+        
+    }
+    .head-image a{padding: 10px;}
+    
+    
+    
+}
+.footer-bg{
+    background-color: #0000007e;
+    margin-top: 2%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 10%;
+    margin-bottom: -1%;
+}
+.footer img{
+    width: 35px;
+    margin: 2%;
+}
+.footer img:hover{
+    margin-top: -6px;
+    transition: 0.3s;
+}
