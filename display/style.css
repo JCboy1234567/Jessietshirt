@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+.head-image{
+    background-color: rgba(0, 0, 0, 0.527);
+    position: fixed;
+    width: 100%;
+}
+.head-image a{
+    color: white;
+    padding: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+.head-image a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.head-image{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 100%;
+    margin-left: 15%;
+}
+.option a{
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: normal;
+}
+.option a:hover{
+    color: orange;
+    transition: 0.3s;
+    border-bottom: 4px white solid;
+}
+.bg{
+    background-image:url(image/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.letter h1{
+    padding-top: 15%;
+    text-align: center;
+    font-size: fixed;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, 0.897);
+    text-shadow: 5px 5px 10px white;
+    padding-bottom: 20%;
+}
+.container{
+    background: linear-gradient( to bottom, orange,rgb(131, 129, 129));
+    
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 10px;
+}
+.display-image img{
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+.display-image{
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.display-image:hover{
+    margin-top: 1.8%;
+    transition: 0.3s;
+    box-shadow: 0px 10px 20px white;
+    transform: translateY();
+}
+.newarrival{
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px white;
+}
+.mens{
+    border-bottom: 3px black solid;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+.mens h3{
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 10px white;
+}
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    padding-top: 2%;
+}
+.discription h2{
+    font-size: 125%;
+}
+.price{
+    margin-top: 5%;
+}
+.viewall-bg{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10%;
+    padding-bottom: 10px;
+    width: 25%;
+}
+.viewall-bg:hover{
+    width: 20%;
+    transition: 0.5s;
+    border-radius: 40%;
+}
+.viewall-bg a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    letter-spacing: 10px;
+    padding-bottom: 1%;
+}
+.footer-bg{
+    background-color: #0000007e;
+    margin-top: 2%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 10%;
+    margin-bottom: -1%;
+}
+.footer img{
+    width: 35px;
+    margin: 2%;
+}
+.footer img:hover{
+    margin-top: -6px;
+    transition: 0.3s;
+}
+.landing-container{
+    background-image:url(image/main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.landing {
+    text-align: center;
+    padding-top: 15%;
+}
+.landing h1{
+    padding: 1%;
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: 5px 5px 10px orange;
+}
+.landing h3{
+    padding: 1%;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 5px 5px 10px orange;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    border-radius: 50%;
+}
+
+.logos img{
+    width: 35px;
+    margin-top: 20%;
+    border-radius: 30%;
+}
+.logos img:hover{
+    box-shadow: 0px 5px 10px orange;
+    transition: 0.3s;
+}
+.explore{
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 16%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+.explore:hover{
+    box-shadow:0px 5px 10px orange;
+    transition: 0.3s;
+}
+.explore a{
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.explore a:hover{
+    text-shadow: 0px 5px 10px orange;
+}
+.mens-letter h1{
+    padding-top: 8%;
+    letter-spacing: 5px;
+    border-bottom: 2px black solid;
+    text-shadow: 5px 5px 10px rgb(206, 206, 206);
+}
+.header{
+    background: linear-gradient(to bottom, orange, rgb(100, 100, 100));
+    margin-bottom: -2%;
+}
+.mens-option{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.mens1{
+    padding: 0.8%;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 20%;
+}
+.mens1:hover{
+    background-color: orange;
+    transition: 0.3s;
+}
+.mens-1{
+    background-color: orange;
+}
+.mens1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.logo a{
+    text-decoration: none;
+    
+}
+.display-men{
+    padding-top: 4%;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.about a{
+    color: white;
+    word-spacing: 5px;
+    text-decoration: none;
+}
+.about a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+@media(max-width: 610px) {
+    .head-image a{
+        font-size: 10px;
+        margin-left: -20px;
+        padding-left: -10px;
+    }
+    .head-image h1{
+        font-size: 20px;
+    }
+    .display-image img{
+        width: 90%;
+    }
+    .display-image{
+        width: 40%;
+    }
+    .letter h1{
+        padding-top: 15%;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 10px;
+        color: rgba(0, 0, 0, 0.897);
+        text-shadow: 5px 5px 10px white;
+        padding-bottom: 20%;
+    }
+    .newarrival{
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 5px 10px white;
+        font-size: 15px;
+    }
+    .mens h3{
+        font-size: 20px;
+        margin-left: 10px;
+        letter-spacing: 10px;
+        text-shadow: 5px 5px 10px white;
+    }
+    .discription{
+        padding: 3%;
+    }
+    .discription h2{
+        font-size: 80%;
+    }
+    .discription p{
+        font-size: 60%;
+        padding-top: -40px;
+    }
+    
+    .head-image a{padding: 10px;}
+    .explore a{
+        font-size: 10px;
+        letter-spacing: normal;
+        padding: 5px;
+    }
+    .landing{
+        padding-top: 90%;
+        
+    }
+    .explore{
+        width: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .viewall-bg{
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .viewall-bg a{
+        letter-spacing: normal;
+        font-size: 10px;
+    }
+    .head-image a{
+        color: white;
+        padding: 1%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        letter-spacing: 10px;
+        margin-left: 10px;
+    }
+    .option a{
+        flex-wrap: wrap;
+        align-content: center;
+        text-decoration: none;
+        color: white;
+        letter-spacing: normal;
+        margin-left: -10px;
+    }
+    .footer img{
+        width: 20px;
+        margin: 2%;
+    }
+}
